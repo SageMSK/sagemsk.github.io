@@ -1,6 +1,6 @@
 /* General Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body, h1, h4 {
+body, h1, h4, h3 {
   font-family: 'Oxygen', sans-serif;
   background-image: url("../img/darkgraybackground.jpg");
   color: white;
@@ -8,6 +8,40 @@ body, h1, h4 {
 
 h4 {
     font-size: 2em;
+}
+
+h5 {
+  color: white;
+  font-size: 1.4em;
+}
+
+.bio {
+  font-size: 1.1em;
+}
+
+.jscomment {
+  color: rgb(160,160,160);
+}
+
+/* Resource Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(200,200,200);
+  text-decoration: underline;
+}
+
+.ref-link {
+  color: #0033FF;
+}
+
+.ref-link:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* Images
@@ -22,11 +56,26 @@ h4 {
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.header, .city {
-    text-align: center;
+.nav-bar {
+  margin-top: 3%;
+}
+.button-group {
+  text-align: right;
 }
 
-/* Table
+.button {
+  background-color: transparent;
+}
+
+.button:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: transparent;
+}
+/* Skill Table
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table {
   font-size: 1.2em;
@@ -94,6 +143,10 @@ ul.social li.bitbucket a:hover {
 
 /*  Mobile */
 @media (max-width: 480px) {
+    .header, .city, .button-group {
+      text-align: center;
+    }
+
     ul.social {
         text-align: center;
     }
