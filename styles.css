@@ -1,0 +1,54 @@
+.container {
+  margin-top: 50px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+}
+
+/* Links */
+ul.social {
+    display: block;
+    margin: 2% 0;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 6px;
+}
+
+ul.social li {
+    font-size: 1.75em;
+    display: inline;
+    padding: 0 1%;
+}
+
+ul.social li a {
+    color: #616161;
+}
+
+ul.social li.github a:hover {
+    color: rgb(51, 51, 51);
+}
+
+ul.social li.twitter a:hover {
+    color: rgb(0,172, 237);
+}
+
+ul.social li.codepen a:hover {
+    color: rgb(51, 51, 51);
+}
+
+ul.social li.linkedin a:hover {
+    color: rgb(0, 123, 182);
+}
+
+ul.social li.twitch a:hover {
+    color: rgb(100, 65, 165);
+}
