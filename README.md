@@ -1,2 +1,3 @@
 # sagemsk.github.io
-Website
+
+[Check it out!](http://sagemsk.github.io/)
