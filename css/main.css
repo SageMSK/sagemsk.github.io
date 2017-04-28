@@ -1,0 +1,119 @@
+/* App */
+/* Base
+============================== */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  display: block;
+  transition: all 0.3s; }
+
+ul {
+  list-style: none; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+/* Components
+============================== */
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px; }
+  .btn:hover {
+    background: #2d2d2d; }
+
+.back-to-top {
+  margin: 0;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none; }
+  .back-to-top .fa-chevron-up {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px; }
+  .back-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.test {
+  font-size: 24px;
+  line-height: 1.3; }
+
+/* HomePage
+============================== */
+body {
+  background: linear-gradient(to right, #2376ae, #8134d3);
+  font-family: 'PT Sans', sans-serif; }
+
+/* Navbar
+============================== */
+.nav-container {
+  background-color: #000000;
+  text-align: center;
+  box-shadow: 0 2px 2px -2px #686868; }
+
+/* Profile
+============================== */
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center; }
+
+.main-profile {
+  margin-top: 10%; }
+  .main-profile .profile-picture {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #868587;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.55); }
+  .main-profile .name {
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.3px; }
+  .main-profile li {
+    display: inline-block; }
+  .main-profile .social {
+    margin: 5px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.2); }
+  .main-profile .fa-twitter, .main-profile .fa-github, .main-profile .fa-linkedin {
+    padding: 10px; }
+  .main-profile .twitter:hover {
+    color: #1da1f2;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.55); }
+  .main-profile .github:hover {
+    color: #333;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.55); }
+  .main-profile .linkedin:hover {
+    color: #0077b5;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.55); }
+
+/* MEDIA - Smart Phones
+============================== */
+@media only screen and (max-width: 500px) {
+  .main-profile {
+    margin-top: 25%; } }
+
+/*# sourceMappingURL=main.css.map */

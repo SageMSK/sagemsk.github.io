@@ -1,0 +1,71 @@
+/* Base
+============================== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  transition: all 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Components
+============================== */
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: $white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+
+  &:hover {
+    background: #2d2d2d;
+  }
+}
+
+.back-to-top {
+  margin: 0;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+
+  .fa-chevron-up {
+    color: $white;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.test {
+  font-size: 24px;
+  line-height: 1.3;
+}

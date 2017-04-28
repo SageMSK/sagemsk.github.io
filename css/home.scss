@@ -1,0 +1,87 @@
+/* HomePage
+============================== */
+body {
+  background: linear-gradient(to right, $gradient-left, $gradient-right);
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Navbar
+============================== */
+.nav-container {
+  background-color: $black;
+  text-align: center;
+  box-shadow: 0 2px 2px -2px #686868;
+}
+
+/* Profile
+============================== */
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.main-profile {
+  margin-top: 10%;
+
+  .profile-picture {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #868587;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.55);
+  }
+
+  .name {
+    padding: 15px 0;
+    color: $white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .social {
+    margin: 5px;
+    border-radius: 50%;
+    color: $white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .fa-twitter, .fa-github, .fa-linkedin {
+    padding: 10px;
+  }
+
+  .twitter {
+    &:hover {
+      color: $twitter-blue;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+    }
+  }
+
+  .github {
+    &:hover {
+      color: $github-gray;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+    }
+  }
+
+  .linkedin {
+    &:hover {
+      color: $linkedin-blue;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+    }
+  }
+}
+
+/* MEDIA - Smart Phones
+============================== */
+@media only screen and (max-width: 500px) {
+  .main-profile {
+    margin-top: 25%;
+  }
+}
