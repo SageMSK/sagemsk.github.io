@@ -13,16 +13,30 @@ body {
   box-shadow: 0 2px 2px -2px #686868;
 }
 
-/* Profile
-============================== */
-.container {
-  margin: 0 auto;
-  max-width: 500px;
-  text-align: center;
+.nav-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: $white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+
+  &:hover {
+    background: #2d2d2d;
+  }
 }
 
+/* Profile
+============================== */
 .main-profile {
-  margin-top: 10%;
+  height: 100vh;
+  
+  .profile-container {
+    padding-top: 10%;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+  }
 
   .profile-picture {
     width: 120px;
@@ -78,10 +92,12 @@ body {
   }
 }
 
-/* MEDIA - Smart Phones
+/* MEDIA - Smart Phones and Tablets
 ============================== */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .main-profile {
-    margin-top: 25%;
+    .profile-container {
+      padding-top: 25%;
+    }
   }
 }

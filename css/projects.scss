@@ -1,0 +1,67 @@
+/* Projects Section
+============================== */
+
+.projects-section {
+  background-color: $white;
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .project-flex-container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .card {
+      margin: 10px 0;
+      border: 1px solid $light-gray;
+      border-radius: 3px;
+      width: 350px;
+      -webkit-box-shadow: 1px 1px 5px 1px rgba(204,204,204,0.7);
+      -moz-box-shadow: 1px 1px 5px 1px rgba(204,204,204,0.7);
+      box-shadow: 1px 1px 5px 1px rgba(204,204,204,0.7);
+
+      &:hover {
+        -webkit-box-shadow: 1px 1px 5px 2px rgba(189,189,189,0.7);
+        -moz-box-shadow: 1px 1px 5px 2px rgba(189,189,189,0.7);
+        box-shadow: 1px 1px 5px 2px rgba(189,189,189,0.7);
+      }
+    }
+
+    .img-card {
+      width: 100%;
+      height: 220px;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .info {
+      padding: 15px;
+
+      .tools {
+        padding: 8px 0;
+        color: $dark-gray;
+        font-size: 14px;
+      }
+
+      .project-btn {
+        display: inline-block;
+        background-color: $gradient-left;
+        padding: 12px 15px;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        color: $white;
+        font-size: 16px;
+
+        &:hover {
+          background-color: #185f8e;
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,3 @@
-# sagemsk.github.io
+# Github Pages: sagemsk.github.io
 
-[Check it out!](http://sagemsk.github.io/)
+Link to site: [http://sagemsk.github.io/](http://sagemsk.github.io/)

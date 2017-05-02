@@ -27,19 +27,6 @@ ul, li {
 
 /* Components
 ============================== */
-.btn {
-  display: inline-block;
-  padding: 15px 35px;
-  color: $white;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 18px;
-
-  &:hover {
-    background: #2d2d2d;
-  }
-}
-
 .back-to-top {
   margin: 0;
   position: fixed;
@@ -63,9 +50,4 @@ ul, li {
   &:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
-}
-
-.test {
-  font-size: 24px;
-  line-height: 1.3;
 }

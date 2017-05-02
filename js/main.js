@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // Scroll Back To Top
   var offset = 250; // users scroll to 250px
   var duration = 300; // 300 ms
   var backToTopBtn = '.back-to-top';
@@ -17,6 +18,16 @@ $(document).ready(function () {
     event.preventDefault();
 
     $('html, body').animate({ scrollTop: 0 }, duration);
+
+    return false;
+  });
+
+  // Scroll to Projects
+  $('.nav-btn').on('click', function () {
+
+    $('html, body').animate({
+      'scrollTop': $('#projects').offset().top
+    }, 500);
 
     return false;
   });
