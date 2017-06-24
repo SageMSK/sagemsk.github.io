@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 
   // Scroll to Projects
-  $('.nav-btn').on('click', function () {
+  $('.to-projects').on('click', function () {
 
     $('html, body').animate({
       'scrollTop': $('#projects').offset().top

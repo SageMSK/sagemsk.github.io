@@ -158,6 +158,8 @@ body {
         font-size: 16px; }
         .projects-section .project-flex-container .info .project-btn:hover {
           background-color: #185f8e; }
+        .projects-section .project-flex-container .info .project-btn:active {
+          transform: translateY(1px); }
 
 /* Footer Section
 ============================== */
