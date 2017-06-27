@@ -1,7 +1,8 @@
 /* HomePage
 ============================== */
 body {
-  background: linear-gradient(to right, $gradient-left, $gradient-right);
+  // background: linear-gradient(to right, $gradient-left, $gradient-right);
+  background: linear-gradient( 135deg, $gradient-left 12%, $gradient-right 60%);
   font-family: 'PT Sans', sans-serif;
 }
 

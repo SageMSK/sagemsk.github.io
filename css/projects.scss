@@ -50,7 +50,7 @@
 
       .project-btn {
         display: inline-block;
-        background-color: $gradient-left;
+        background: $blue;
         padding: 12px 15px;
         border-radius: 5px;
         outline: none;
@@ -59,7 +59,7 @@
         font-size: 16px;
 
         &:hover {
-          background-color: #185f8e;
+          background: $blue-hover;
         }
 
         &:active {
